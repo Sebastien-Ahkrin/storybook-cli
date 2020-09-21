@@ -2,11 +2,7 @@
   "name": "storybook-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "built": "tsc",
-    "dev": "npm run built && node built/"
-  },
+  "main": "src",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sebastien-Ahkrin/storybook-cli.git"
@@ -17,11 +13,6 @@
     "url": "https://github.com/Sebastien-Ahkrin/storybook-cli/issues"
   },
   "homepage": "https://github.com/Sebastien-Ahkrin/storybook-cli#readme",
-  "devDependencies": {
-    "@types/node": "^14.11.1",
-    "@types/yargs": "^15.0.5",
-    "typescript": "^4.0.3"
-  },
   "dependencies": {
     "yargs": "^16.0.3"
   }
